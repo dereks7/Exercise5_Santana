@@ -15,9 +15,13 @@ public class ex5_santana
         Scanner in2 = new Scanner(System.in);
         String num2 = in2.nextLine();
         int n2 = Integer.parseInt(num2);
-        System.out.println( num1+ "+" + num2 + "=" + (n1 + n2));
-        System.out.println( num1+ "-" + num2 + "=" + (n1 - n2));
-        System.out.println( num1+ "*" + num2 + "=" + (n1 * n2));
-        System.out.println( num1+ "/" + num2 + "=" + (n1 / n2));
+        int add = (n1 + n2);
+        int sub =(n1 - n2);
+        int mult = (n1 * n2);
+        int div = (n1 / n2);
+        System.out.println( num1+ "+" + num2 + "=" + add);
+        System.out.println( num1+ "-" + num2 + "=" + sub);
+        System.out.println( num1+ "*" + num2 + "=" + mult);
+        System.out.println( num1+ "/" + num2 + "=" + div);
     }
 }
